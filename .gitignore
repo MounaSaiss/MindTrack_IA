@@ -1,2 +1,26 @@
-#ignore dossier de data
-DatasetMentalHealth/*
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset
+DatasetMental_Health/
+data/
+
+# Trained models
+models/*.pkl
+
+# Generated reports
+reports/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
