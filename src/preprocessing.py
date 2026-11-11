@@ -88,5 +88,5 @@ if __name__ == "__main__":
     print("Data preprocessing Done ")
     print("X_train:", X_train.shape)
     print("X_test:", X_test.shape)
-    print("Missing values in training:", X_train.isnull().sum().sum())
-    print("Missing values in testing:", X_test.isnull().sum().sum())
+    print("valeurs manques dans train:", X_train.isnull().sum().sum())
+    print("Valeurs manques dans test :", X_test.isnull().sum().sum())
