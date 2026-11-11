@@ -86,7 +86,3 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test, preprocessor = prepare_data()
 
     print("Data preprocessing Done ")
-    print("X_train:", X_train.shape)
-    print("X_test:", X_test.shape)
-    print("valeurs manques dans train:", X_train.isnull().sum().sum())
-    print("Valeurs manques dans test :", X_test.isnull().sum().sum())
